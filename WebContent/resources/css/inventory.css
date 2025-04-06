@@ -1,0 +1,366 @@
+body
+{
+	margin: 0 0 0 0 !important;
+}
+
+
+.fade
+{
+	opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    height: 0;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+ }
+ 
+.fade.show {
+    opacity: 1;
+    visibility: visible;
+/*     height: auto; */
+}
+       
+
+.DivUserPage
+{
+	height: 100%;
+    width: 100%;
+    position: relative;
+  	transition: opacity 0.4s ease-out;
+   	width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: none;
+    top: -100px;
+}
+
+.DivUserPageMain
+{
+	display: block;
+	height: 100%;
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+  	transition: opacity 0.4s ease-out;
+  	opacity: 1;
+}
+
+.DivUserPagePallete
+{
+}
+
+.DivUserPageSecond
+{
+    height: auto;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.DivUserPageLine
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 100%;
+	margin-left: 5px;
+}
+
+.DivUserPageSpace
+{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	width: 45%;
+	margin-left: 5px;
+}
+
+.divFloatLeft
+{
+	float: left;
+}
+
+.divFloatRight
+{
+	float: right;
+}
+
+.DivUserPageLineButton
+{
+	float: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+}
+
+.DivUserPageLineButtonUpdate
+{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+}
+
+.SpanUserPageLine
+{
+	font-size: 15px;
+	font-family: sans-serif;
+}
+
+/* button */
+/* { */
+/* 	width: 100%; */
+/*     display: inline-block; */
+/*     overflow: auto; */
+/*     white-space: nowrap; */
+/*     margin: 0px auto; */
+/*     border: 1px #d3dee0 solid; */
+/*     height: 38px; */
+/*     border-radius: 7px; */
+/*     background-color: #2192dc; */
+/*     color: white; */
+/*     font-weight: normal; */
+/*     margin: 15px; */
+/* } */
+
+button:hover
+{
+	background-color: #3983d0;
+}
+
+#buttonUpdate
+{
+	width: 90%;
+    display: inline-block;
+    overflow: auto;
+    white-space: nowrap;
+    margin: 0px auto;
+    border: 1px #d3dee0 solid;
+    height: 38px;
+    border-radius: 7px;
+    background-color: #2192dc;
+    color: white;
+    font-weight: normal;
+    margin: 8px;
+    cursor: pointer;
+}
+
+#buttonUpdate:hover
+{
+	background-color: #3983d0;
+}
+
+#buttonCancel:hover
+{
+	background-color: #3983d0;
+}
+
+input[type=text]
+{
+	border: none;
+	height: 30px!important;
+	border-radius: 5px;
+	width: 100%;
+	padding-left: 5px;
+	border: solid 1px black;
+}
+
+input[type=button]
+{
+	border: 1px #d3dee0 solid;
+	background-color: #2192dc;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+}
+
+input[type=button]:hover
+{
+	background-color: #3983d0;
+}
+
+select
+{
+	width: 30%;
+	height: 34px;
+	border-radius: 5px;
+	border: solid 1px black;
+	background-color: white;
+}
+
+.divPic
+{
+	float: none!important;
+    margin-left: 29%;
+}
+
+.divPicSpan
+{
+	height: 211px;	
+}
+
+.imgCard
+{
+	border-radius: 5px 5px 5px 5px;
+    margin: auto;
+    display: block;
+    max-width: 200px;
+    max-height: 200px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+}
+
+.imgCardButton
+{
+	border-radius: 5px 5px 5px 5px;
+    margin: auto;
+    display: block;
+    max-width: 200px;
+    width: 100%;
+    height: 25px;
+}
+
+#checkboxes
+{
+	display: block;
+	background-color: white;
+	border-radius: 5px;
+	border: solid 1px black;
+	width: 100%;
+	font-size: 15px;
+	overflow: auto;
+    height: 300px;
+}
+
+#checkboxes span:hover
+{
+	background-color: #3983d0;
+}
+
+.loadingDivClass, .loadingDivClass1
+{
+	margin: 0 auto;
+    height: auto;
+    width: 155px;
+    display: blocked;
+    padding-top: 17%;
+}
+
+#loadingDiv, #loadingDiv1
+{
+	width: 100%;
+	height: 100%;
+	position:fixed;
+	z-index:100;
+	background-color:white;
+	display: blocked;
+}
+
+.hint
+{
+	font-size: 15px;
+}
+
+.DivForgot
+{
+	font-size: 15px;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(255 255 255 / 90%);
+  z-index: 1000;
+  cursor: pointer;
+}
+
+#text{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
+  background-color: #3983d0;
+  position: absolute;
+  padding: 15px;
+  top: 50%;
+  left: 50%;
+  font-size: 25px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+@media only screen and (max-width: 1024px)
+{
+	.DivUserPageSpace
+	{
+		width: 98%;
+	}
+	
+	.divPic
+	{
+	    margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 768px)
+{
+	.hint
+	{
+		font-size: 2.5vw;
+	}
+	
+	.divFloatLeft
+	{
+		float: left;
+	}
+
+	.divFloatRight
+	{
+		float: left;
+	}
+	
+	input[type=text]
+	{
+		font-size: 2.5vw;
+		width: 97%
+	}
+	
+	#buttonUpdate, #buttonCancel
+	{
+		width: 97%;
+	}
+	
+	.SpanUserPageLine
+	{
+		font-size: 2.5vw;
+	}
+	
+	#checkboxes
+	{
+		font-size: 2.5vw;
+		width: 92%;
+	}
+	
+	.DivUserPageLineButtonUpdate, .DivUserPageLineButton
+	{
+    	margin-left: 19%;
+	}
+	
+	.loadingDivClass1, .loadingDivClass
+	{
+	    padding-top: 69%;
+	}
+	
+	.DivForgot
+	{
+		font-size: 2.5vw;
+	}
+}
