@@ -45,7 +45,7 @@ alert('wew11');
 	    },
 		success: function(data)
 		{
-			alert("blob12345");
+			alert("blob1234567");
 			let filename = "test.pdf";
 			let blob = new Blob([data], {type: "application/pdf" });
 			
